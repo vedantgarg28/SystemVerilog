@@ -38,7 +38,9 @@ module alu(A,B,sel,R,carry);
         
         100	: 	R = A & B;
         
-        101 : 	R = A | B;     
+        101 : 	R = A | B;    
+        
+        // according to the spec, I was not supposed to write the other cases.
       endcase
       
     end
